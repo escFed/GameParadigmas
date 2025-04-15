@@ -73,3 +73,15 @@ C:\Users\p864\Desktop\Proyecto Base\Proyecto Base\obj\Debug\MyGame.csproj.CoreCo
 C:\Users\p864\Desktop\Proyecto Base\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
 C:\Users\p864\Desktop\Proyecto Base\Proyecto Base\obj\Debug\MyGame.exe
 C:\Users\p864\Desktop\Proyecto Base\Proyecto Base\obj\Debug\MyGame.pdb
+A:\Fedee\Documents\GameParadigmas\obj\Debug\MyGame.csproj.AssemblyReference.cache
+A:\Fedee\Documents\GameParadigmas\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+A:\Fedee\Documents\GameParadigmas\obj\Debug\MyGame.exe
+A:\Fedee\Documents\GameParadigmas\obj\Debug\MyGame.pdb
+A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\enemyP.png
+A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\fondoP.png
+A:\Fedee\Documents\GameParadigmas\bin\Debug\MyGame.exe.config
+A:\Fedee\Documents\GameParadigmas\bin\Debug\MyGame.exe
+A:\Fedee\Documents\GameParadigmas\bin\Debug\MyGame.pdb
+A:\Fedee\Documents\GameParadigmas\obj\Debug\MyGame.csproj.Up2Date
+A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\bulletP.png
+A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\playerP.png
