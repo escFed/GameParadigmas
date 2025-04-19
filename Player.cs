@@ -15,7 +15,7 @@ namespace MyGame
 
         public Player(float positionX, float positionY)
         {
-            transform = new Transform(new Vector2(positionX, positionY)); // Initialize the player's transform component
+            transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); // Initialize the player's transform component
             playerController = new PlayerController(transform); // Initialize the player's controller component
         }
 

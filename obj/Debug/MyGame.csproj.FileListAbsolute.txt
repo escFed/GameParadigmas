@@ -85,3 +85,6 @@ A:\Fedee\Documents\GameParadigmas\bin\Debug\MyGame.pdb
 A:\Fedee\Documents\GameParadigmas\obj\Debug\MyGame.csproj.Up2Date
 A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\bulletP.png
 A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\playerP.png
+A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\gameOver.png
+A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\mainMenu.png
+A:\Fedee\Documents\GameParadigmas\bin\Debug\assets\youWin.png

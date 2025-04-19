@@ -9,7 +9,7 @@ namespace MyGame
     public class EnemyMovement
     {
         private Transform transform; // The enemy's transform component
-        private float speed = 10f; // Speed of the enemy
+        private float speed = 0.1f; // Speed of the enemy
 
         // Property to access the transform component
         public EnemyMovement(Transform transform)
@@ -21,11 +21,11 @@ namespace MyGame
         {
             transform.Translate(new Vector2(-1, 0), speed); // Move the enemy left
 
-            //speed += 0.1f * Program.DeltaTime;
-            //speed = Math.Min(speed, 10f);
-            if (transform.Position.x <= 100)
+            speed += 0.1f * Time.DeltaTime;
+            speed = Math.Min(speed, 10f);
+            if (transform.Position.x <= 50)
             {
-                transform.Translate(new Vector2(1, 0), speed);
+                GameManager.Instance.ChangeState(gameState.youLose);
             }
         }
     }

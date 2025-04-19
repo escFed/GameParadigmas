@@ -11,7 +11,7 @@ namespace MyGame
     {
         private DateTime lastShotTime; // Time of the last shot
         private float shotCooldown = 0.5f; // Cooldown time between shots in seconds
-        private float speed = 1;
+        private float speed = 5;
 
         private Transform transform;
 
@@ -41,7 +41,7 @@ namespace MyGame
         {
             if ((DateTime.Now - lastShotTime).TotalSeconds > shotCooldown)
             {
-                Program.AddBullet (transform.Position.x, transform.Position.y); // Create a bullet at the player's position
+                GameManager.Instance.LevelController.AddBullet (transform.Position.x, transform.Position.y); // Create a bullet at the player's position
                 lastShotTime = DateTime.Now; // Update the last shot time
             }
         }
