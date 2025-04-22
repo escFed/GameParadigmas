@@ -8,7 +8,6 @@ using Tao.Sdl;
 
 namespace MyGame
 {
-
     class Program
     {       
         static void Main(string[] args)

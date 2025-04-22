@@ -10,15 +10,13 @@ namespace MyGame
     {
         private List<Bullet> bullets = new List<Bullet>(); // Bullets list
         private List<Enemy> enemies = new List<Enemy>(); // Enemies list
-        private Image fondo = Engine.LoadImage("assets/fondoP.png");
-        private Player player1;
+        private Image fondo = Engine.LoadImage("assets/Screens/castle.png");
+        public Player player;
         
         private Timer timer = new Timer(); // Timer for the level
 
         public List<Bullet> Bullets => bullets; // Property to access the list of bullets
         public List<Enemy> Enemies => enemies; // Property to access the list of enemies
-
-        //public Timer Timer => timer; // Property to access the timer
 
         public LevelController()
         {
@@ -29,19 +27,29 @@ namespace MyGame
         {
             timer.Start(); // Start the timer
 
-            player1 = new Player(0, 0); // Create a new player at position
+            player = new Player(30, 320); // Create a new player at position
 
-            enemies.Add(new Enemy(1100, 100));
-            enemies.Add(new Enemy(1100, 300));
-            enemies.Add(new Enemy(1100, 500));
+            enemies.Add(new Enemy(1100, 110));   
+            enemies.Add(new Enemy(1100, 230)); 
+            enemies.Add(new Enemy(1100, 370));
+            enemies.Add(new Enemy(1100, 520));
+        }
 
+        public void ResetLevel() // Reset the level
+        {
+            bullets.Clear(); // Clear the bullets list
+            enemies.Clear(); // Clear the enemies list
+            InitializeLevel(); // Reinitialize the level
+
+            timer = new Timer(); // Reset the timer
+            timer.Start(); // Start the timer again
         }
 
         public void Update()
         {           
             timer.Update(); // Update the timer
 
-            player1.Upadate(); // Update the player
+            player.Update(); // Update the player
 
             for (int i = 0; i < bullets.Count; i++) // Update the bullets
             {
@@ -54,13 +62,11 @@ namespace MyGame
             }
         }
 
-        /// Render the game objects on the screen
         public void Render()
         {
-
             Engine.Clear(); // Clear the screen          
             Engine.Draw(fondo, 0, 0); // Draw the background image
-            player1.Render(); // Render the player
+            player.Render(); // Render the player
 
             for (int i = 0; i < bullets.Count; i++)
             {
@@ -72,7 +78,6 @@ namespace MyGame
                 enemies[i].Render();
             }
             Engine.Show(); // Update the screen
-
         }
 
         public void AddBullet(float posX, float posY) // Add a bullet to the game

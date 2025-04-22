@@ -8,53 +8,55 @@ namespace MyGame
 {
     public class Bullet
     {
-        private Image bulletImage = Engine.LoadImage("assets/bulletP.png"); // The bullet's image
+        private Animation bulletAnimation; // The bullet's animation
 
-        private float posX =0;
-        private float posY = 0;
+        private float posX;
+        private float posY;
 
-        private float scaleX = 4; // The bullet's width
-        private float scaleY = 10; // The bullet's height
-
+        private float scaleX; // The bullet's width
+        private float scaleY; // The bullet's height
         private float speed = 3; // The bullet's speed
+
+        public float PosX => posX; // Property to get the bullet's X position
+        public float PosY => posY; // Property to get the bullet's Y position
+        public float ScaleX => scaleX; // Property to get the bullet's width
+        public float ScaleY => scaleY; // Property to get the bullet's height
 
         public Bullet(float positionX, float positionY) // Constructor to initialize the bullet with a position
         {
             posX = positionX;
             posY = positionY;
-            
+
+            createAnimations(); // Create the bullet's animation
+        }
+
+        private void createAnimations()
+        { 
+            List<Image> frames = new List<Image>();
+
+            for (int i = 0; i < 4; i++)
+            {
+                Image frame = Engine.LoadImage($"assets/Bullet/{i}.png");
+                frames.Add(frame); // Add the frame to the list
+            }
+
+            bulletAnimation = new Animation("Bullet", 0.1f, frames, true); // Create a new animation with the frames
         }
 
         public void Update()
         {
             posX += speed; // Move the bullet to the right
-            CheckCollisions();
-        }
-
-        private void CheckCollisions()
-        {
-            for (int i = 0; i < GameManager.Instance.LevelController.Enemies.Count; i++)
+            Collisions.CheckCollisions(this);
+            bulletAnimation.Update(); // Update the current animation
+            if (bulletAnimation.IsFinished())
             {
-                Enemy enemy = GameManager.Instance.LevelController.Enemies[i];
-
-                float DistanceX = Math.Abs((enemy.Transform.Position.x + enemy.Transform.Scale.x / 2) - posX + (scaleX / 2));
-                float DistanceY = Math.Abs((enemy.Transform.Position.y + enemy.Transform.Scale.y / 2) - posY + (scaleY / 2));
-
-                float sumHalfWidth = enemy.Transform.Scale.x / 2 + scaleX / 2;
-                float sumHalfHeight = enemy.Transform.Scale.y / 2 + scaleY / 2;
-
-                if (DistanceX < sumHalfWidth && DistanceY < sumHalfHeight)
-                {
-                    //Program.Enemies.Remove(enemy);
-                    //enemy.GetDamage(100);
-                    enemy.Spawn();
-                    GameManager.Instance.LevelController.Bullets.Remove(this);
-                }
+                bulletAnimation.Reset(); // Reset the animation if it is finished
             }
         }
+
         public void Render()
         {
-            Engine.Draw(bulletImage, posX, posY); // Draw the bullet image at its position
+            Engine.Draw(bulletAnimation.CurrentImage, posX, posY); // Draw the bullet image at its position
         }
     }
 }

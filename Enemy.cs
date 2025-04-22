@@ -8,11 +8,9 @@ namespace MyGame
 {
     public class Enemy
     {
-        private Image enemyImage = Engine.LoadImage("assets/enemyP.png"); // The enemy's image
-
         private EnemyMovement enemyMovement; // The enemy's movement component
-        private EnemySpawn enemySpawn; // The enemy's spawn component
         private Transform transform; // The enemy's transform component
+        private Animation currentAnimation; // The current animation of the enemy
 
         private Vector2 initial;
         private int health = 1; // The enemy's health
@@ -21,20 +19,39 @@ namespace MyGame
 
         public Enemy(float positionX, float positionY) // Constructor to initialize the enemy with a position
         {
-            transform = new Transform(new Vector2(positionX, positionY), new Vector2(60, 60)); 
+            transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); 
             enemyMovement = new EnemyMovement(transform); // Initialize the enemy's movement component
             initial = transform.Position; // Store the initial position of the enemy
+
+            createAnimation(); // Create the enemy's animation
+        }
+
+        public void createAnimation()
+        {
+            List<Image> frames = new List<Image>();
+
+            for (int i = 0; i < 8; i++)
+            {
+                Image frame = Engine.LoadImage($"assets/Enemy/Run/{i}.png");
+                frames.Add(frame); // Add the frame to the list
+            }
+
+            currentAnimation = new Animation("Run", 0.1f, frames, true); // Create a new animation with the frames
         }
 
         public void Update() // Update the enemy's state
         {
-            enemyMovement.Update(); // Update the enemy's movement
-            //enemySpawn.Update(); 
+            enemyMovement.Update(); // Update the enemy's movement 
+            currentAnimation.Update(); // Update the current animation
+            if (currentAnimation.IsFinished())
+            {
+                currentAnimation.Reset(); // Reset the animation if it is finished
+            }
         }
 
         public void Render() // Render the enemy on the screen
         {
-            Engine.Draw(enemyImage, transform.Position.x, transform.Position.y); // Draw the enemy image at its position
+            Engine.Draw(currentAnimation.CurrentImage, transform.Position.x, transform.Position.y); // Draw the enemy image at its position
         }
 
         public void GetDamage(int damage)

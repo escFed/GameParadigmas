@@ -16,9 +16,9 @@ namespace MyGame
         private static GameManager instance;
         private gameState currentState = gameState.mainMenu; 
 
-        private Image mainMenu = Engine.LoadImage("assets/mainMenu.png");
-        private Image youWin = Engine.LoadImage("assets/youWin.png");
-        private Image gameOver = Engine.LoadImage("assets/gameOver.png");
+        private Image mainMenu = Engine.LoadImage("assets/Screens/mainMenu.png");
+        private Image youWin = Engine.LoadImage("assets/Screens/youWin.png");
+        private Image gameOver = Engine.LoadImage("assets/Screens/gameOver.png");
         private LevelController levelController;
 
         public LevelController LevelController => levelController; // Property to access the level controller
@@ -47,6 +47,7 @@ namespace MyGame
                 case gameState.mainMenu:
                     if (Engine.GetKey(Engine.KEY_P))
                     {
+                        levelController.ResetLevel(); // Reset the level
                         currentState = gameState.gameScreen; // Change to game state
                     }
                     break;
@@ -54,8 +55,26 @@ namespace MyGame
                     levelController.Update(); // Update the level controller
                     break;
                 case gameState.youWin:
+                    if (Engine.GetKey(Engine.KEY_P))
+                    {
+                        levelController.ResetLevel(); // Reset the level
+                        currentState = gameState.gameScreen; // Change to game state
+                    }
+                    else if (Engine.GetKey(Engine.KEY_ESC))
+                    {
+                        currentState = gameState.mainMenu; // Change to main menu state
+                    }
                     break;
                 case gameState.youLose:
+                    if (Engine.GetKey(Engine.KEY_P))
+                    {
+                        levelController.ResetLevel(); // Reset the level
+                        currentState = gameState.gameScreen; // Change to game state
+                    }
+                    else if (Engine.GetKey(Engine.KEY_ESC))
+                    {
+                        currentState = gameState.mainMenu; // Change to main menu state
+                    }
                     break;
             }
         }
