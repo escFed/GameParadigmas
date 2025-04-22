@@ -16,7 +16,7 @@ namespace MyGame
         public void Start() 
         {
             currentTime = survivalTime; // Initialize the current time to the survival time
-            lastTime = survivalTime;
+            lastTime = survivalTime; // Set the last time to the survival time
         }
 
         public void Update()

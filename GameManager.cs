@@ -13,7 +13,7 @@ namespace MyGame
     
     public class GameManager
     {
-        private static GameManager instance;
+        private static GameManager instance; // Singleton instance
         private gameState currentState = gameState.mainMenu; 
 
         private Image mainMenu = Engine.LoadImage("assets/Screens/mainMenu.png");
@@ -23,15 +23,15 @@ namespace MyGame
 
         public LevelController LevelController => levelController; // Property to access the level controller
 
-        public static GameManager Instance
+        public static GameManager Instance // Singleton property
         {
-            get
+            get 
             {
-                if (instance == null)
+                if (instance == null)  // Check if instance is null
                 {
-                    instance = new GameManager();
+                    instance = new GameManager(); // Create a new instance if it doesn't exist
                 }
-                return instance;
+                return instance; 
             }
         }
 
@@ -50,30 +50,30 @@ namespace MyGame
                         levelController.ResetLevel(); // Reset the level
                         currentState = gameState.gameScreen; // Change to game state
                     }
-                    break;
+                    break; 
                 case gameState.gameScreen:
-                    levelController.Update(); // Update the level controller
+                    levelController.Update(); 
                     break;
                 case gameState.youWin:
                     if (Engine.GetKey(Engine.KEY_P))
                     {
-                        levelController.ResetLevel(); // Reset the level
-                        currentState = gameState.gameScreen; // Change to game state
+                        levelController.ResetLevel(); 
+                        currentState = gameState.gameScreen; 
                     }
                     else if (Engine.GetKey(Engine.KEY_ESC))
                     {
-                        currentState = gameState.mainMenu; // Change to main menu state
+                        currentState = gameState.mainMenu; 
                     }
                     break;
                 case gameState.youLose:
                     if (Engine.GetKey(Engine.KEY_P))
                     {
-                        levelController.ResetLevel(); // Reset the level
-                        currentState = gameState.gameScreen; // Change to game state
+                        levelController.ResetLevel(); 
+                        currentState = gameState.gameScreen; 
                     }
                     else if (Engine.GetKey(Engine.KEY_ESC))
                     {
-                        currentState = gameState.mainMenu; // Change to main menu state
+                        currentState = gameState.mainMenu; 
                     }
                     break;
             }
@@ -92,13 +92,13 @@ namespace MyGame
                     levelController.Render(); // Render the level controller
                     break;
                 case gameState.youWin:
-                    Engine.Clear(); // Clear the screen
-                    Engine.Draw(youWin, 0, 0); // Draw the you win image
+                    Engine.Clear(); 
+                    Engine.Draw(youWin, 0, 0); 
                     Engine.Show();
                     break;
                 case gameState.youLose:
-                    Engine.Clear(); // Clear the screen
-                    Engine.Draw(gameOver, 0, 0); // Draw the game over image
+                    Engine.Clear(); 
+                    Engine.Draw(gameOver, 0, 0); 
                     Engine.Show();
                     break;
             }

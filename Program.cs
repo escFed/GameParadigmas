@@ -12,18 +12,18 @@ namespace MyGame
     {       
         static void Main(string[] args)
         {
-            Engine.Initialize(); // Initialize the game engine
+            Engine.Initialize(); 
 
-            Time.Initialize(); // Initialize the Time class
+            Time.Initialize(); 
 
-            GameManager.Instance.Initialize(); // Initialize the GameManager
+            GameManager.Instance.Initialize(); 
 
             while (true)
             {
-                Time.Update(); // Update the time
+                Time.Update(); 
 
-                GameManager.Instance.Update(); // Update the game manager
-                GameManager.Instance.Render(); // Render the game manager
+                GameManager.Instance.Update(); 
+                GameManager.Instance.Render(); 
             }
         }
     }

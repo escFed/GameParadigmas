@@ -9,16 +9,15 @@ namespace MyGame
 {
     public class PlayerController
     {
-        private DateTime lastShotTime; // Time of the last shot
-        private float shotCooldown = 0.5f; // Cooldown time between shots in seconds
-        private float speed = 1.6f;
+        private DateTime lastShotTime; //last time the player shot
+        private float shotCooldown = 1f; 
+        private float speed = 1.5f;
 
-        private Transform transform;
-        private Animation currentAnimation; // The current animation of the player
+        private Transform transform; 
 
         public PlayerController(Transform transform)
         {
-            this.transform = transform; // Assign the transform
+            this.transform = transform; 
         }
 
         public void Update()
@@ -26,13 +25,13 @@ namespace MyGame
             if (Engine.GetKey(Engine.KEY_W))
             {
                 if (transform.Position.y > 120)
-                    transform.Translate(new Vector2(0, -1), speed); // Move up
+                    transform.Translate(new Vector2(0, -1), speed); 
             }
 
             if (Engine.GetKey(Engine.KEY_S))
             {
                 if (transform.Position.y < 565)
-                    transform.Translate(new Vector2(0, 1), speed); // Move down
+                    transform.Translate(new Vector2(0, 1), speed); 
             }
 
             if (Engine.GetKey(Engine.KEY_ESP))
@@ -42,11 +41,11 @@ namespace MyGame
         }
         private void Shoot()
         {
-            if ((DateTime.Now - lastShotTime).TotalSeconds > shotCooldown && !GameManager.Instance.LevelController.player.isShooting)
+            if ((DateTime.Now - lastShotTime).TotalSeconds > shotCooldown) //check if the cooldown time has passed
             {
-                GameManager.Instance.LevelController.AddBullet (transform.Position.x, transform.Position.y); // Create a bullet at the player's position
-                lastShotTime = DateTime.Now; // Update the last shot time
-                GameManager.Instance.LevelController.player.shoot(); // Call the shoot method of the player
+                GameManager.Instance.LevelController.AddBullet (transform.Position.x, transform.Position.y); //create a new bullet
+                lastShotTime = DateTime.Now; //update the last shot time
+                GameManager.Instance.LevelController.player.shoot(); //call the shoot method in the player class
             }
         }
     

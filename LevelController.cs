@@ -20,7 +20,7 @@ namespace MyGame
 
         public LevelController()
         {
-            InitializeLevel(); // Initialize the level
+            InitializeLevel(); 
         }
 
         public void InitializeLevel() 
@@ -29,13 +29,13 @@ namespace MyGame
 
             player = new Player(30, 320); // Create a new player at position
 
-            enemies.Add(new Enemy(1100, 110));   
+            enemies.Add(new Enemy(1300, 110));   
             enemies.Add(new Enemy(1100, 230)); 
-            enemies.Add(new Enemy(1100, 370));
-            enemies.Add(new Enemy(1100, 520));
+            enemies.Add(new Enemy(1200, 370));
+            enemies.Add(new Enemy(1400, 520));
         }
 
-        public void ResetLevel() // Reset the level
+        public void ResetLevel() 
         {
             bullets.Clear(); // Clear the bullets list
             enemies.Clear(); // Clear the enemies list
@@ -47,9 +47,9 @@ namespace MyGame
 
         public void Update()
         {           
-            timer.Update(); // Update the timer
+            timer.Update(); 
 
-            player.Update(); // Update the player
+            player.Update(); 
 
             for (int i = 0; i < bullets.Count; i++) // Update the bullets
             {
@@ -82,7 +82,7 @@ namespace MyGame
 
         public void AddBullet(float posX, float posY) // Add a bullet to the game
         {
-           bullets.Add(new Bullet(posX + 48, posY)); // Add a new bullet to the list
+           bullets.Add(new Bullet(posX + 45, posY + 30)); // Add a new bullet to the list
         }
     }
 }

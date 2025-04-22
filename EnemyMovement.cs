@@ -8,20 +8,20 @@ namespace MyGame
 {
     public class EnemyMovement
     {
-        private Transform transform; // The enemy's transform component
-        private float speed = 0.5f; // Speed of the enemy
+        private Transform transform; 
+        private float speed = 0.2f; // Speed of the enemy
 
-        public EnemyMovement(Transform transform) // Constructor to initialize the enemy's movement component
+        public EnemyMovement(Transform transform) 
         {
-            this.transform = transform; // Initialize the transform component
+            this.transform = transform; 
         }
 
         public void Update()
         {
             transform.Translate(new Vector2(-1, 0), speed); // Move the enemy left
 
-            speed += 0.02f * Time.DeltaTime;
-            speed = Math.Min(speed, 10f);
+            speed += 0.03f * Time.DeltaTime; // Increase the speed over time
+            speed = Math.Min(speed, 5f); // Cap the speed to a maximum value
             if (transform.Position.x <= 30)
             {
                 GameManager.Instance.ChangeState(gameState.youLose);

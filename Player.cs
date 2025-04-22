@@ -11,69 +11,30 @@ namespace MyGame
     {
         private Transform transform;
         private PlayerController playerController;
-
-        private Animation currentAnimation; 
-        private Animation idleAnimation; 
-        private Animation shootAnimation; 
-        public bool isShooting; 
+        private PlayerAnimator playerAnimator;
 
         public Player(float positionX, float positionY)
         {
-            transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); 
-            playerController = new PlayerController(transform); 
-            isShooting = false;   
-            createAnimations(); 
-        }
-
-        private void createAnimations()
-       {
-            List<Image> frames = new List<Image>();
-
-            for (int i = 0; i < 9; i++)
-            {
-                Image frame = Engine.LoadImage($"assets/Player/Idle/{i}.png");
-                frames.Add(frame); 
-            }
-
-            idleAnimation = new Animation("Idle", 0.1f, frames, true); 
-
-            List<Image> framesShoot = new List<Image>();
-
-            for (int i = 0; i < 5; i++) 
-            {
-                Image shootFrame = Engine.LoadImage($"assets/Player/Shoot/{i}.png");
-                framesShoot.Add(shootFrame);
-            }
-
-            shootAnimation = new Animation("Shoot", 0.1f, framesShoot, false);
-
-            currentAnimation = idleAnimation; 
-        }
+            transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); // Create a new Transform object with the specified position and size
+            playerController = new PlayerController(transform);
+            playerAnimator = new PlayerAnimator();
+        }       
 
         public void Update()
         {
             playerController.Update();
+            playerAnimator.Update();
 
-            if ( currentAnimation.IsFinished())
-            {
-                isShooting = false; 
-                currentAnimation = idleAnimation;
-                currentAnimation.Reset(); 
-            }
-
-            currentAnimation.Update(); 
         }
 
         public void Render()
         {
-            Engine.Draw(currentAnimation.CurrentImage, transform.Position.x, transform.Position.y);
+            Engine.Draw(playerAnimator.CurrentFrame, transform.Position.x, transform.Position.y);
         }
 
        public void shoot()
         {
-            currentAnimation = shootAnimation; 
-            isShooting = true; 
-            currentAnimation.Reset(); 
+            playerAnimator.AnimShoot();
         }
         
     }

@@ -8,57 +8,40 @@ namespace MyGame
 {
     public class Enemy
     {
-        private EnemyMovement enemyMovement; // The enemy's movement component
-        private Transform transform; // The enemy's transform component
-        private Animation currentAnimation; // The current animation of the enemy
+        private EnemyMovement enemyMovement; 
+        private EnemyAnimator enemyAnimator; 
+        private Transform transform;        
 
-        private Vector2 initial;
+        private Vector2 initial; // The initial position of the enemy
         private int health = 1; // The enemy's health
 
         public Transform Transform => transform; // Property to access the transform component
 
-        public Enemy(float positionX, float positionY) // Constructor to initialize the enemy with a position
+        public Enemy(float positionX, float positionY) 
         {
             transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); 
-            enemyMovement = new EnemyMovement(transform); // Initialize the enemy's movement component
+            enemyMovement = new EnemyMovement(transform); 
+            enemyAnimator = new EnemyAnimator(); 
             initial = transform.Position; // Store the initial position of the enemy
 
-            createAnimation(); // Create the enemy's animation
+        }       
+
+        public void Update() 
+        {
+            enemyMovement.Update(); // Update the enemy's movement
+            enemyAnimator.Update(); // Update the enemy's animation
         }
 
-        public void createAnimation()
+        public void Render() 
         {
-            List<Image> frames = new List<Image>();
-
-            for (int i = 0; i < 8; i++)
-            {
-                Image frame = Engine.LoadImage($"assets/Enemy/Run/{i}.png");
-                frames.Add(frame); // Add the frame to the list
-            }
-
-            currentAnimation = new Animation("Run", 0.1f, frames, true); // Create a new animation with the frames
-        }
-
-        public void Update() // Update the enemy's state
-        {
-            enemyMovement.Update(); // Update the enemy's movement 
-            currentAnimation.Update(); // Update the current animation
-            if (currentAnimation.IsFinished())
-            {
-                currentAnimation.Reset(); // Reset the animation if it is finished
-            }
-        }
-
-        public void Render() // Render the enemy on the screen
-        {
-            Engine.Draw(currentAnimation.CurrentImage, transform.Position.x, transform.Position.y); // Draw the enemy image at its position
+            Engine.Draw(enemyAnimator.CurrentFrame, transform.Position.x, transform.Position.y); // Draw the enemy image at its position
         }
 
         public void GetDamage(int damage)
         {
             health -= damage; // Reduce the enemy's health by the damage amount
 
-            if(health < 0)
+            if(health < 0) //check if the enemy's health is less than 0
             {
                 GameManager.Instance.LevelController.Enemies.Remove(this); // Remove the enemy from the list if health is less than 0
             }
@@ -66,7 +49,7 @@ namespace MyGame
 
         public void Spawn()
         {
-            transform.Reposition(initial);
+            transform.Reposition(initial); //Reposition the enemy to its initial position
         }
     }
 }

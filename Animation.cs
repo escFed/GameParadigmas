@@ -9,19 +9,19 @@ namespace MyGame
 {
     public class Animation
     {
-        private string name;
+        private string name; 
         private float speed;
         private List<Image> frames = new List<Image>();
-        private bool isLoop;
+        private bool isLoop; 
 
-        private float currentAnimationTime;
-        private int currentFrame;
+        private float currentAnimationTime; 
+        private int currentFrame; 
 
-        public Image CurrentImage => frames[currentFrame];
+        public Image CurrentImage => frames[currentFrame]; 
 
-        public Animation(string name, float speed, List<Image> frames, bool isLoop)
+        public Animation(string name, float speed, List<Image> frames, bool isLoop) 
         {
-            this.name = name;
+            this.name = name; 
             this.speed = speed;
             this.frames = frames;
             this.isLoop = isLoop;
@@ -29,27 +29,27 @@ namespace MyGame
 
         public void Update()
         {
-            currentAnimationTime += Time.DeltaTime;
+            currentAnimationTime += Time.DeltaTime; // Update the animation time
 
-            if (currentAnimationTime > speed)
+            if (currentAnimationTime > speed) // check if the animation time exceeds the speed
             {
-                if (!IsFinished())
+                if (!IsFinished()) // Check if the animation is not finished
                 {
-                    currentFrame++;
-                    currentAnimationTime = 0;
+                    currentFrame++;  // Move to the next frame
+                    currentAnimationTime = 0; // Reset the animation time
                 }
             }
         }
 
-        public bool IsFinished()
+        public bool IsFinished() 
         {
-            return (currentFrame >= frames.Count -1);
+            return (currentFrame >= frames.Count -1); // Check if the animation is finished
         }
 
         public void Reset()
         {
-            currentFrame = 0;
-            currentAnimationTime = 0;
+            currentFrame = 0; // Reset the current frame to the first frame
+            currentAnimationTime = 0; // Reset the animation time
         }
     }
 }
