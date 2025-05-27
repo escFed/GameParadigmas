@@ -16,7 +16,7 @@ namespace MyGame
         public Player(float positionX, float positionY)
         {
             transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); // Create a new Transform object with the specified position and size
-            playerController = new PlayerController(transform);
+            playerController = new PlayerController(transform, this);
             playerAnimator = new PlayerAnimator();
         }       
 

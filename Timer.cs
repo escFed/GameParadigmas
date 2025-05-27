@@ -13,6 +13,8 @@ namespace MyGame
 
         private float lastTime = 0f; // The last time the timer was updated
 
+        public float SurvivalTime => survivalTime;
+
         public void Start() 
         {
             currentTime = survivalTime; // Initialize the current time to the survival time

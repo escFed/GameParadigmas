@@ -12,27 +12,30 @@ namespace MyGame
         private List<Enemy> enemies = new List<Enemy>(); // Enemies list
         private Image fondo = Engine.LoadImage("assets/Screens/castle.png");
         public Player player;
+        private Hud hud;
         
         private Timer timer = new Timer(); // Timer for the level
+        public Hud Hud => hud;
 
         public List<Bullet> Bullets => bullets; // Property to access the list of bullets
         public List<Enemy> Enemies => enemies; // Property to access the list of enemies
 
         public LevelController()
         {
-            InitializeLevel(); 
+            //InitializeLevel(); 
         }
 
         public void InitializeLevel() 
         {
             timer.Start(); // Start the timer
+            hud = new Hud(); // Initialize the HUD  
 
             player = new Player(30, 320); // Create a new player at position
 
-            enemies.Add(new Enemy(1300, 110));   
-            enemies.Add(new Enemy(1100, 230)); 
-            enemies.Add(new Enemy(1200, 370));
-            enemies.Add(new Enemy(1400, 520));
+            EnemyFactory.CreateEnemy(EnemyType.Slow, 1300, 110);   
+            EnemyFactory.CreateEnemy(EnemyType.Fast, 1100, 230); 
+            EnemyFactory.CreateEnemy(EnemyType.Fast, 1200, 370);
+            EnemyFactory.CreateEnemy(EnemyType.Slow, 1400, 520);
         }
 
         public void ResetLevel() 
@@ -60,6 +63,8 @@ namespace MyGame
             {
                 enemies[i].Update();
             }
+
+            hud.UpdateTime((int)timer.SurvivalTime);
         }
 
         public void Render()
@@ -77,12 +82,14 @@ namespace MyGame
             {
                 enemies[i].Render();
             }
+
+            hud.Render(); // Render the HUD
             Engine.Show(); // Update the screen
         }
 
-        public void AddBullet(float posX, float posY) // Add a bullet to the game
+        public void AddBullet(Bullet bullet) // Add a bullet to the game
         {
-           bullets.Add(new Bullet(posX + 45, posY + 30)); // Add a new bullet to the list
+           bullets.Add(bullet); // Add a new bullet to the list
         }
     }
 }

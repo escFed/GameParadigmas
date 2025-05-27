@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.Net.NetworkInformation;
 using Tao.Sdl;
@@ -16,7 +17,7 @@ namespace MyGame
 
             Time.Initialize(); 
 
-            GameManager.Instance.Initialize(); 
+            GameManager.Instance.Initialize();
 
             while (true)
             {

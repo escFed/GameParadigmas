@@ -9,15 +9,19 @@ namespace MyGame
 {
     public class PlayerController
     {
-        private DateTime lastShotTime; //last time the player shot
-        private float shotCooldown = 1f; 
+        private Player player; 
         private float speed = 1.5f;
+        private string currentBulletType = "default";
+        private DateTime lastShot = DateTime.MinValue;
+        private float shotCooldown = 1f;
 
         private Transform transform; 
 
-        public PlayerController(Transform transform)
+        public PlayerController(Transform transform, Player player)
         {
-            this.transform = transform; 
+            this.transform = transform;
+            this.player = player;
+
         }
 
         public void Update()
@@ -33,21 +37,30 @@ namespace MyGame
                 if (transform.Position.y < 565)
                     transform.Translate(new Vector2(0, 1), speed); 
             }
+           
+            if (Engine.GetKey(Engine.KEY_Q))
+            {
+                currentBulletType = "default";
+            }
+
+            if (Engine.GetKey(Engine.KEY_E))
+            {
+                currentBulletType = "fast";
+            }
 
             if (Engine.GetKey(Engine.KEY_ESP))
             {
-                Shoot();
+                if ((DateTime.Now - lastShot).TotalSeconds >= shotCooldown)
+                {
+                    float posX = transform.Position.x + 45;
+                    float posY = transform.Position.y + 30;
+
+                    Bullet bullet = BulletFactory.CreateBullet(currentBulletType, posX, posY, player);
+                    GameManager.Instance.LevelController.AddBullet(bullet);
+                    player.shoot();
+                    lastShot = DateTime.Now;
+                }
             }
-        }
-        private void Shoot()
-        {
-            if ((DateTime.Now - lastShotTime).TotalSeconds > shotCooldown) //check if the cooldown time has passed
-            {
-                GameManager.Instance.LevelController.AddBullet (transform.Position.x, transform.Position.y); //create a new bullet
-                lastShotTime = DateTime.Now; //update the last shot time
-                GameManager.Instance.LevelController.player.shoot(); //call the shoot method in the player class
-            }
-        }
-    
+        }   
     }
 }

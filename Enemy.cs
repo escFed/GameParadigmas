@@ -6,45 +6,48 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Enemy
+    public abstract class Enemy
     {
-        private EnemyMovement enemyMovement; 
-        private EnemyAnimator enemyAnimator; 
-        private Transform transform;        
+           
+        protected Transform transform;        
 
         private Vector2 initial; // The initial position of the enemy
-        private int health = 1; // The enemy's health
+        //private int health = 1; // The enemy's health
+        protected HealthController healthController;
 
         public Transform Transform => transform; // Property to access the transform component
 
-        public Enemy(float positionX, float positionY) 
+        public Enemy(float positionX, float positionY, float speed) 
         {
-            transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); 
-            enemyMovement = new EnemyMovement(transform); 
-            enemyAnimator = new EnemyAnimator(); 
+            transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100));
             initial = transform.Position; // Store the initial position of the enemy
-
-        }       
-
-        public void Update() 
-        {
-            enemyMovement.Update(); // Update the enemy's movement
-            enemyAnimator.Update(); // Update the enemy's animation
+            healthController = new HealthController(100);
+            healthController.OnCollision += OnEnemyHit;
+            healthController.OnDeath += () =>
+            {
+                GameManager.Instance.LevelController.Enemies.Remove(this);
+            };
         }
 
-        public void Render() 
-        {
-            Engine.Draw(enemyAnimator.CurrentFrame, transform.Position.x, transform.Position.y); // Draw the enemy image at its position
-        }
+        public abstract void Update();
+
+        public abstract void Render();
+
 
         public void GetDamage(int damage)
         {
-            health -= damage; // Reduce the enemy's health by the damage amount
+            //health -= damage; // Reduce the enemy's health by the damage amount
+            healthController.GetDamage(damage);
 
-            if(health < 0) //check if the enemy's health is less than 0
-            {
-                GameManager.Instance.LevelController.Enemies.Remove(this); // Remove the enemy from the list if health is less than 0
-            }
+           // if(health < 0) //check if the enemy's health is less than 0
+            //{
+              //  GameManager.Instance.LevelController.Enemies.Remove(this); // Remove the enemy from the list if health is less than 0
+            //}
+        }
+
+        public void OnEnemyHit()
+        {
+            Console.WriteLine("enemyHit");
         }
 
         public void Spawn()

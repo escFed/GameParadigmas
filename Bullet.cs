@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Bullet
+    public abstract class Bullet
     {
-        private float posX;
-        private float posY;
+        protected float posX;
+        protected float posY;
 
-        private BulletAnimator bulletAnimation;
-
-        private float scaleX; // The bullet's width
-        private float scaleY; // The bullet's height
-        private float speed = 2.5f; // The bullet's speed
+        protected float scaleX; // The bullet's width
+        protected float scaleY; // The bullet's height       
 
         public float PosX => posX; 
         public float PosY => posY; 
@@ -26,25 +23,12 @@ namespace MyGame
         {
             posX = positionX; // Initialize the bullet's position
             posY = positionY; 
-            bulletAnimation = new BulletAnimator(); // Initialize the bullet's animation
         }
 
-        public void Update()
-        {
-            posX += speed; // Move the bullet to the right
-            Collisions.CheckCollisions(this); // Check for collisions with enemies
-            bulletAnimation.Update();
+        public abstract void Update();
 
-            if (posX > 1000)
-            {
-                GameManager.Instance.LevelController.Bullets.Remove(this); // Remove the bullet if it goes off screen
-                return;
-            }
-        }
 
-        public void Render()
-        {
-            Engine.Draw(bulletAnimation.CurrentFrame, posX, posY); // Draw the bullet image at its position
-        }
+        public abstract void Render();
+
     }
 }
