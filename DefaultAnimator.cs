@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class DefaultAnimator : BulletAnimator
+    public class DefaultAnimator : BulletAnimator, IAnimatable
     {
         public override void createAnimation()
         {

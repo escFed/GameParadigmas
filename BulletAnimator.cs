@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public abstract class BulletAnimator
+    public abstract class BulletAnimator : IAnimatable
     {
         protected Animation currentAnimation; 
 

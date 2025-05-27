@@ -72,6 +72,10 @@
     <Compile Include="GameManager.cs" />
     <Compile Include="HealthController.cs" />
     <Compile Include="Hud.cs" />
+    <Compile Include="IAnimatable.cs" />
+    <Compile Include="IController.cs" />
+    <Compile Include="IDamageable.cs" />
+    <Compile Include="IEnemyMovement.cs" />
     <Compile Include="IPower.cs" />
     <Compile Include="LevelController.cs" />
     <Compile Include="Player.cs" />

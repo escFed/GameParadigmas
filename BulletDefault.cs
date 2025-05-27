@@ -18,6 +18,8 @@ namespace MyGame
             defaultAnimator = new DefaultAnimator(); // Initialize the default bullet's animation
         }
 
+        public override int Damage => 100;
+
         public override void Update()
         {
             posX += speed; // Move the bullet to the right

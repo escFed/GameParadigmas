@@ -21,8 +21,9 @@ namespace MyGame
                 float sumHalfHeight = enemy.Transform.Scale.y / 2 + bullet.ScaleY / 2; //calculate the sum of half the height of the enemy and bullet
 
                 if (DistanceX < sumHalfWidth && DistanceY < sumHalfHeight) //check if the bullet and enemy are colliding
-                {                   
-                    enemy.Spawn(); 
+                {
+                    //enemy.GetDamage(bullet.Damage);
+                    enemy.Spawn();                   
                     GameManager.Instance.LevelController.Bullets.Remove(bullet); 
                     return;
                 }

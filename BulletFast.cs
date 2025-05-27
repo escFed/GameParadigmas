@@ -18,6 +18,8 @@ namespace MyGame
             fastAnimator = new FastAnimator(); // Initialize the fast bullet's animation
         }
 
+        public override int Damage => 50;
+
         public override void Update()
         {
             posX += speed; // Move the bullet to the right

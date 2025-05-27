@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class EnemyDemon : Enemy
+    public class EnemyDemon : Enemy, IDamageable
     {
         private DemonAnimator demonAnimator; // Animator for the demon enemy
         private EnemyMovement enemyMovement;
         
-
-
         public EnemyDemon(float positionX, float positionY, float speed) : base(positionX, positionY, speed)
         {
             enemyMovement = new EnemyMovement(transform);

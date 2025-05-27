@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class EnemyMovement
+    public class EnemyMovement: IEnemyMovement
     {
         private Transform transform; 
         private float speed = 0.2f; // Speed of the enemy

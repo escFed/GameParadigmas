@@ -3,112 +3,124 @@
   "WorkspaceRootPath": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\enemydemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemydemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\enemyeye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemyeye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\animationloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:animationloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\bulletanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:bulletanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:animator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\ipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:ipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\eyeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:eyeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemyeye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemyeye.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\fastanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:fastanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\bulletfast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:bulletfast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\bulletdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:bulletdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemyanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemyanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|a:\\fedee\\downloads\\gameparadigmas-main\\gameparadigmas-main\\demonanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemydemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemydemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\demonanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:demonanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\defaultanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:defaultanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:bulletfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\ienemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:ienemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\icontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:icontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\ianimatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:ianimatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\fastanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:fastanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\eyeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:eyeanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\enemyanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemyanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\bulletanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:bulletanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -117,194 +129,136 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 223,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 217,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Animation.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Animation.cs",
-              "RelativeDocumentMoniker": "Animation.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Animation.cs",
-              "RelativeToolTip": "Animation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Transform.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Transform.cs",
+              "RelativeDocumentMoniker": "Transform.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Transform.cs",
+              "RelativeToolTip": "Transform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:41:15.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:48:55.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Bullet.cs",
-              "RelativeDocumentMoniker": "Bullet.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Bullet.cs",
-              "RelativeToolTip": "Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:52:52.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HealthController.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\HealthController.cs",
-              "RelativeDocumentMoniker": "HealthController.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\HealthController.cs",
-              "RelativeToolTip": "HealthController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:10:36.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnimationLoader.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\AnimationLoader.cs",
-              "RelativeDocumentMoniker": "AnimationLoader.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\AnimationLoader.cs",
-              "RelativeToolTip": "AnimationLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:38:50.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BulletAnimator.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletAnimator.cs",
-              "RelativeDocumentMoniker": "BulletAnimator.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletAnimator.cs",
-              "RelativeToolTip": "BulletAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:54:33.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Animator.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Animator.cs",
-              "RelativeDocumentMoniker": "Animator.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Animator.cs",
-              "RelativeToolTip": "Animator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:33:53.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerController.cs",
-              "RelativeDocumentMoniker": "PlayerController.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerController.cs",
-              "RelativeToolTip": "PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T04:15:13.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LevelController.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\LevelController.cs",
-              "RelativeDocumentMoniker": "LevelController.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\LevelController.cs",
-              "RelativeToolTip": "LevelController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T01:09:32.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Hud.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Hud.cs",
-              "RelativeDocumentMoniker": "Hud.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Hud.cs",
-              "RelativeToolTip": "Hud.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAhwBAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T17:09:37.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IPower.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IPower.cs",
-              "RelativeDocumentMoniker": "IPower.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IPower.cs",
-              "RelativeToolTip": "IPower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T14:33:30.023Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EnemyFactory.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyFactory.cs",
-              "RelativeDocumentMoniker": "EnemyFactory.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyFactory.cs",
-              "RelativeToolTip": "EnemyFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T16:29:13.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Player.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAASwBIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T02:45:05.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "Collisions.cs",
               "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Collisions.cs",
               "RelativeDocumentMoniker": "Collisions.cs",
               "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Collisions.cs",
               "RelativeToolTip": "Collisions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T17:41:57.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EyeAnimator.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EyeAnimator.cs",
-              "RelativeDocumentMoniker": "EyeAnimator.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EyeAnimator.cs",
-              "RelativeToolTip": "EyeAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\HealthController.cs",
+              "RelativeDocumentMoniker": "HealthController.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\HealthController.cs",
+              "RelativeToolTip": "HealthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAApwA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:37:28.405Z",
+              "WhenOpened": "2025-05-27T20:20:45.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
+              "Title": "DemonAnimator.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\DemonAnimator.cs",
+              "RelativeDocumentMoniker": "DemonAnimator.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\DemonAnimator.cs",
+              "RelativeToolTip": "DemonAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:37:02.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Bullet.cs",
+              "RelativeDocumentMoniker": "Bullet.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Bullet.cs",
+              "RelativeToolTip": "Bullet.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwBUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:52:52.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hud.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Hud.cs",
+              "RelativeDocumentMoniker": "Hud.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Hud.cs",
+              "RelativeToolTip": "Hud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:21:03.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BulletFactory.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletFactory.cs",
+              "RelativeDocumentMoniker": "BulletFactory.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletFactory.cs",
+              "RelativeToolTip": "BulletFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:00:54.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DefaultAnimator.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\DefaultAnimator.cs",
+              "RelativeDocumentMoniker": "DefaultAnimator.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\DefaultAnimator.cs",
+              "RelativeToolTip": "DefaultAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:04:23.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Timer.cs",
+              "RelativeDocumentMoniker": "Timer.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Timer.cs",
+              "RelativeToolTip": "Timer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:48:35.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Time.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Time.cs",
+              "RelativeDocumentMoniker": "Time.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Time.cs",
+              "RelativeToolTip": "Time.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T17:48:30.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -312,89 +266,167 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:48:28.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:48:28.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FastAnimator.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\FastAnimator.cs",
-              "RelativeDocumentMoniker": "FastAnimator.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\FastAnimator.cs",
-              "RelativeToolTip": "FastAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABOAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "PlayerAnimator.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerAnimator.cs",
+              "RelativeDocumentMoniker": "PlayerAnimator.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerAnimator.cs",
+              "RelativeToolTip": "PlayerAnimator.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAApwAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:16:38.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T03:09:51.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerController.cs",
+              "RelativeDocumentMoniker": "PlayerController.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerController.cs",
+              "RelativeToolTip": "PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:15:13.913Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Timer.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Timer.cs",
-              "RelativeDocumentMoniker": "Timer.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Timer.cs",
-              "RelativeToolTip": "Timer.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAhwA8AAAAyAAAAAAAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:48:35.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T02:45:05.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LevelController.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\LevelController.cs",
+              "RelativeDocumentMoniker": "LevelController.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\LevelController.cs",
+              "RelativeToolTip": "LevelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:09:32.799Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "IEnemyMovement.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IEnemyMovement.cs",
+              "RelativeDocumentMoniker": "IEnemyMovement.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IEnemyMovement.cs",
+              "RelativeToolTip": "IEnemyMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:17:51.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IController.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IController.cs",
+              "RelativeDocumentMoniker": "IController.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IController.cs",
+              "RelativeToolTip": "IController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:18:46.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAnimatable.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IAnimatable.cs",
+              "RelativeDocumentMoniker": "IAnimatable.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\IAnimatable.cs",
+              "RelativeToolTip": "IAnimatable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:03:42.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "EnemyMovement.cs",
               "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyMovement.cs",
               "RelativeDocumentMoniker": "EnemyMovement.cs",
               "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyMovement.cs",
               "RelativeToolTip": "EnemyMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T01:38:31.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T01:38:31.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
+              "Title": "EnemyFactory.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyFactory.cs",
+              "RelativeDocumentMoniker": "EnemyFactory.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyFactory.cs",
+              "RelativeToolTip": "EnemyFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:29:13.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "EnemyAnimator.cs",
               "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyAnimator.cs",
               "RelativeDocumentMoniker": "EnemyAnimator.cs",
               "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyAnimator.cs",
               "RelativeToolTip": "EnemyAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T02:14:05.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T02:14:05.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DemonAnimator.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\DemonAnimator.cs",
-              "RelativeDocumentMoniker": "DemonAnimator.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\DemonAnimator.cs",
-              "RelativeToolTip": "DemonAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "EyeAnimator.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EyeAnimator.cs",
+              "RelativeDocumentMoniker": "EyeAnimator.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EyeAnimator.cs",
+              "RelativeToolTip": "EyeAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:37:02.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Time.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Time.cs",
-              "RelativeDocumentMoniker": "Time.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Time.cs",
-              "RelativeToolTip": "Time.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwCAAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:48:30.35Z"
+              "WhenOpened": "2025-05-27T01:37:28.405Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "FastAnimator.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\FastAnimator.cs",
+              "RelativeDocumentMoniker": "FastAnimator.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\FastAnimator.cs",
+              "RelativeToolTip": "FastAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:16:38.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BulletAnimator.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletAnimator.cs",
+              "RelativeDocumentMoniker": "BulletAnimator.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletAnimator.cs",
+              "RelativeToolTip": "BulletAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:00:37.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Vector2.cs",
               "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Vector2.cs",
               "RelativeDocumentMoniker": "Vector2.cs",
@@ -403,74 +435,76 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T17:49:03.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Transform.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Transform.cs",
-              "RelativeDocumentMoniker": "Transform.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Transform.cs",
-              "RelativeToolTip": "Transform.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADgvxgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:48:55.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PlayerAnimator.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerAnimator.cs",
-              "RelativeDocumentMoniker": "PlayerAnimator.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\PlayerAnimator.cs",
-              "RelativeToolTip": "PlayerAnimator.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAApwD8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T03:09:51.195Z"
             }
           ]
         },
         {
-          "DockedWidth": 223,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 229,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EnemyDemon.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyDemon.cs",
-              "RelativeDocumentMoniker": "EnemyDemon.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyDemon.cs",
-              "RelativeToolTip": "EnemyDemon.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAhwBIAAAAwAAAAAAAAAA==",
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T18:11:14.201Z",
+              "WhenOpened": "2025-04-22T01:38:32.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EnemyEye.cs",
               "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyEye.cs",
               "RelativeDocumentMoniker": "EnemyEye.cs",
               "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyEye.cs",
               "RelativeToolTip": "EnemyEye.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T01:55:48.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Enemy.cs",
-              "RelativeDocumentMoniker": "Enemy.cs",
-              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\Enemy.cs",
-              "RelativeToolTip": "Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "EnemyDemon.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyDemon.cs",
+              "RelativeDocumentMoniker": "EnemyDemon.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\EnemyDemon.cs",
+              "RelativeToolTip": "EnemyDemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T01:38:32.197Z",
+              "WhenOpened": "2025-05-27T18:11:14.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BulletDefault.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletDefault.cs",
+              "RelativeDocumentMoniker": "BulletDefault.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletDefault.cs",
+              "RelativeToolTip": "BulletDefault.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:00:35.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BulletFast.cs",
+              "DocumentMoniker": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletFast.cs",
+              "RelativeDocumentMoniker": "BulletFast.cs",
+              "ToolTip": "A:\\Fedee\\Downloads\\GameParadigmas-main\\GameParadigmas-main\\BulletFast.cs",
+              "RelativeToolTip": "BulletFast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T19:22:43.689Z",
               "EditorCaption": ""
             }
           ]

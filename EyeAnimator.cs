@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class EyeAnimator : EnemyAnimator
+    public class EyeAnimator : EnemyAnimator, IAnimatable
     {
         public override void createAnimation()
         {

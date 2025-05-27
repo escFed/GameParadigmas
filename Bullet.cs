@@ -17,7 +17,9 @@ namespace MyGame
         public float PosX => posX; 
         public float PosY => posY; 
         public float ScaleX => scaleX; 
-        public float ScaleY => scaleY; 
+        public float ScaleY => scaleY;
+
+        public abstract int Damage { get; } // The bullet's damage value
 
         public Bullet(float positionX, float positionY) 
         {
@@ -26,7 +28,6 @@ namespace MyGame
         }
 
         public abstract void Update();
-
 
         public abstract void Render();
 

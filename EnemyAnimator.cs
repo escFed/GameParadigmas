@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public abstract class EnemyAnimator
+    public abstract class EnemyAnimator: IAnimatable
     {
         protected Animation currentAnimation; 
 

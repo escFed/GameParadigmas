@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class HealthController
+    public class HealthController : IDamageable
     {
         public delegate void HealthDelegate();
         public delegate void DeathDelegate();
@@ -29,7 +29,7 @@ namespace MyGame
 
         public void GetDamage(int damage)
         {
-            onCollision.Invoke();
+            onCollision?.Invoke();
             health -= damage;
 
             if (health <= 0)

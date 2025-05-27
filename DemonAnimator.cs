@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class DemonAnimator : EnemyAnimator
+    public class DemonAnimator : EnemyAnimator, IAnimatable
     {
         public override void createAnimation()
         {

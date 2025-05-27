@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class PlayerController
+    public class PlayerController : IController
     {
         private Player player; 
         private float speed = 1.5f;

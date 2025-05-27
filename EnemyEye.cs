@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class EnemyEye : Enemy
+    public class EnemyEye : Enemy, IDamageable
     {
         private EyeAnimator eyeAnimator;
         private EnemyMovement enemyMovement; // Movement component for the enemy
