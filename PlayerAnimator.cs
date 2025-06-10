@@ -15,7 +15,7 @@ namespace MyGame
 
         public Image CurrentFrame => currentAnimation.CurrentImage;
 
-        public PlayerAnimator() 
+        public PlayerAnimator()
         {
             isShooting = false; // Initialize the shooting state to false
             createAnimations();
@@ -46,7 +46,7 @@ namespace MyGame
             currentAnimation = idleAnimation; // Set the current animation to idle
         }
 
-        public void Update() 
+        public void Update()
         {
             currentAnimation.Update();
 
@@ -62,7 +62,7 @@ namespace MyGame
         {
             currentAnimation = shootAnimation; // Set the current animation to shoot
             isShooting = true; // Set the shooting state to true
-            currentAnimation.Reset(); 
+            currentAnimation.Reset();
         }
     }
 }

@@ -15,7 +15,7 @@ namespace MyGame
 
         public float SurvivalTime => survivalTime;
 
-        public void Start() 
+        public void Start()
         {
             currentTime = survivalTime; // Initialize the current time to the survival time
             lastTime = survivalTime; // Set the last time to the survival time

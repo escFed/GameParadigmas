@@ -15,6 +15,7 @@ namespace MyGame
         {
             Engine.DrawText("Survival Time: " + timeText, 10, 10, 255, 255, 255, font);
             Engine.DrawText("Q or E to change the power", 10, 40, 255, 255, 255, font);
+            Engine.DrawText("Score: " + ScoreManager.Score, 910, 10, 255, 255, 255, font);
         }
 
         public void UpdateTime(int time)

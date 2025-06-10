@@ -14,17 +14,17 @@ namespace MyGame
         protected float scaleX; // The bullet's width
         protected float scaleY; // The bullet's height       
 
-        public float PosX => posX; 
-        public float PosY => posY; 
-        public float ScaleX => scaleX; 
+        public float PosX => posX;
+        public float PosY => posY;
+        public float ScaleX => scaleX;
         public float ScaleY => scaleY;
 
         public abstract int Damage { get; } // The bullet's damage value
 
-        public Bullet(float positionX, float positionY) 
+        public Bullet(float positionX, float positionY)
         {
             posX = positionX; // Initialize the bullet's position
-            posY = positionY; 
+            posY = positionY;
         }
 
         public abstract void Update();

@@ -18,7 +18,7 @@ namespace MyGame
             transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100)); // Create a new Transform object with the specified position and size
             playerController = new PlayerController(transform, this);
             playerAnimator = new PlayerAnimator();
-        }       
+        }
 
         public void Update()
         {
@@ -32,10 +32,10 @@ namespace MyGame
             Engine.Draw(playerAnimator.CurrentFrame, transform.Position.x, transform.Position.y);
         }
 
-       public void shoot()
+        public void shoot()
         {
             playerAnimator.AnimShoot();
         }
-        
+
     }
 }

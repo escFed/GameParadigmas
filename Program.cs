@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
 using System.Net.NetworkInformation;
 using Tao.Sdl;
@@ -10,21 +9,21 @@ using Tao.Sdl;
 namespace MyGame
 {
     class Program
-    {       
+    {
         static void Main(string[] args)
         {
-            Engine.Initialize(); 
+            Engine.Initialize();
 
-            Time.Initialize(); 
+            Time.Initialize();
 
             GameManager.Instance.Initialize();
 
             while (true)
             {
-                Time.Update(); 
+                Time.Update();
 
-                GameManager.Instance.Update(); 
-                GameManager.Instance.Render(); 
+                GameManager.Instance.Update();
+                GameManager.Instance.Render();
             }
         }
     }

@@ -8,9 +8,9 @@ namespace MyGame
 {
     public static class Collisions
     {
-        public static void CheckCollisions(Bullet bullet) 
+        public static void CheckCollisions(Bullet bullet)
         {
-            for (int i = 0; i < GameManager.Instance.LevelController.Enemies.Count; i++) 
+            for (int i = 0; i < GameManager.Instance.LevelController.Enemies.Count; i++)
             {
                 Enemy enemy = GameManager.Instance.LevelController.Enemies[i]; // Get the enemy from the list
 
@@ -22,9 +22,9 @@ namespace MyGame
 
                 if (DistanceX < sumHalfWidth && DistanceY < sumHalfHeight) //check if the bullet and enemy are colliding
                 {
-                    //enemy.GetDamage(bullet.Damage);
-                    enemy.Spawn();                   
-                    GameManager.Instance.LevelController.Bullets.Remove(bullet); 
+                    enemy.GetDamage(bullet.Damage);
+                    //enemy.Spawn();                   
+                    GameManager.Instance.LevelController.Bullets.Remove(bullet);
                     return;
                 }
             }

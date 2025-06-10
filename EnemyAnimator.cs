@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public abstract class EnemyAnimator: IAnimatable
+    public abstract class EnemyAnimator : IAnimatable
     {
-        protected Animation currentAnimation; 
+        protected Animation currentAnimation;
 
         public Image CurrentFrame => currentAnimation.CurrentImage; // get the current frame of the animation
 
-        public EnemyAnimator() 
+        public EnemyAnimator()
         {
             createAnimation(); // Create the enemy's animations
         }
@@ -21,7 +21,7 @@ namespace MyGame
 
         public void Update()
         {
-            currentAnimation.Update(); 
+            currentAnimation.Update();
             if (currentAnimation.IsFinished()) // Check if the animation is finished
             {
                 currentAnimation.Reset(); // Reset the animation if it is finished

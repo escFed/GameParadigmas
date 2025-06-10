@@ -48,27 +48,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animation.cs" />
-    <Compile Include="AnimationLoader.cs" />
-    <Compile Include="Animator.cs" />
     <Compile Include="Bullet.cs" />
     <Compile Include="BulletAnimator.cs" />
     <Compile Include="BulletDefault.cs" />
     <Compile Include="BulletFactory.cs" />
     <Compile Include="BulletFast.cs" />
-    <Compile Include="DefaultAnimator.cs" />
-    <Compile Include="EnemyFactory.cs" />
-    <Compile Include="FastAnimator.cs" />
     <Compile Include="Collisions.cs" />
+    <Compile Include="DefaultAnimator.cs" />
     <Compile Include="DemonAnimator.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="EnemyAnimator.cs" />
     <Compile Include="EnemyDemon.cs" />
     <Compile Include="EnemyEye.cs" />
+    <Compile Include="EnemyFactory.cs" />
     <Compile Include="EnemyMovement.cs" />
     <Compile Include="Engine\Font.cs" />
     <Compile Include="Engine\Engine.cs" />
     <Compile Include="Engine\Image.cs" />
     <Compile Include="EyeAnimator.cs" />
+    <Compile Include="FastAnimator.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="HealthController.cs" />
     <Compile Include="Hud.cs" />
@@ -77,13 +75,14 @@
     <Compile Include="IDamageable.cs" />
     <Compile Include="IEnemyMovement.cs" />
     <Compile Include="IPower.cs" />
-    <Compile Include="LevelController.cs" />
+    <Compile Include="LvlOneController.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerAnimator.cs" />
     <Compile Include="PlayerController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Engine\Sound.cs" />
+    <Compile Include="ScoreManager.cs" />
     <Compile Include="Time.cs" />
     <Compile Include="Timer.cs" />
     <Compile Include="Transform.cs" />
@@ -95,7 +94,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="assets\Bullet\Default\0.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -209,5 +207,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

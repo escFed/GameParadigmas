@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class BulletFast : Bullet , IPower
+    public class BulletFast : Bullet, IPower
     {
         private FastAnimator fastAnimator; // Animator for the fast bullet
         private DateTime lastShotTime; //last time the player shot
@@ -14,7 +14,7 @@ namespace MyGame
         private float speed = 2.5f; // The bullet's speed
 
         public BulletFast(float positionX, float positionY) : base(positionX, positionY)
-        {           
+        {
             fastAnimator = new FastAnimator(); // Initialize the fast bullet's animation
         }
 

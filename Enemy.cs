@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public abstract class Enemy: IDamageable
-    {     
-        protected Transform transform;        
+    public abstract class Enemy : IDamageable
+    {
+        protected Transform transform;
         private Vector2 initial; // The initial position of the enemy
         protected HealthController healthController;
 
         public Transform Transform => transform; // Property to access the transform component
 
-        public Enemy(float positionX, float positionY, float speed) 
+        public Enemy(float positionX, float positionY, float speed)
         {
             transform = new Transform(new Vector2(positionX, positionY), new Vector2(100, 100));
             initial = transform.Position; // Store the initial position of the enemy
@@ -33,12 +33,13 @@ namespace MyGame
 
         public void OnDeath()
         {
-            GameManager.Instance.LevelController.Enemies.Remove(this);
+            ScoreManager.AddScore(100);
+            Spawn();
         }
 
         public void Spawn()
         {
-            transform.Reposition(initial); //Reposition the enemy to its initial position
+            transform.Reposition(initial);
         }
     }
 }

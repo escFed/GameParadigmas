@@ -9,13 +9,13 @@ namespace MyGame
 {
     public class PlayerController : IController
     {
-        private Player player; 
+        private Player player;
         private float speed = 1.5f;
         private string currentBulletType = "default";
         private DateTime lastShot = DateTime.MinValue;
         private float shotCooldown = 1f;
 
-        private Transform transform; 
+        private Transform transform;
 
         public PlayerController(Transform transform, Player player)
         {
@@ -29,15 +29,15 @@ namespace MyGame
             if (Engine.GetKey(Engine.KEY_W))
             {
                 if (transform.Position.y > 120)
-                    transform.Translate(new Vector2(0, -1), speed); 
+                    transform.Translate(new Vector2(0, -1), speed);
             }
 
             if (Engine.GetKey(Engine.KEY_S))
             {
                 if (transform.Position.y < 565)
-                    transform.Translate(new Vector2(0, 1), speed); 
+                    transform.Translate(new Vector2(0, 1), speed);
             }
-           
+
             if (Engine.GetKey(Engine.KEY_Q))
             {
                 currentBulletType = "default";
@@ -61,6 +61,6 @@ namespace MyGame
                     lastShot = DateTime.Now;
                 }
             }
-        }   
+        }
     }
 }

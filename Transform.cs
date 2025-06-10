@@ -14,7 +14,7 @@ namespace MyGame
         public Vector2 Position => position; // Property to access the position
         public Vector2 Scale => scale; // Property to access the scale
 
-        public Transform(Vector2 position, Vector2 scale) 
+        public Transform(Vector2 position, Vector2 scale)
         {
             this.position = position; // Assign the position
             this.scale = scale; // Assign the scale

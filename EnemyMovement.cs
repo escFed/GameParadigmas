@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static MyGame.EnemyMovement;
 
 namespace MyGame
 {
-    public class EnemyMovement: IEnemyMovement
+    public class EnemyMovement : IEnemyMovement
     {
-        private Transform transform; 
+        private Transform transform;
         private float speed = 0.2f; // Speed of the enemy
 
-        public EnemyMovement(Transform transform) 
+        public EnemyMovement(Transform transform)
         {
-            this.transform = transform; 
+            this.transform = transform;
         }
 
         public void Update()
