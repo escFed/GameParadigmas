@@ -37,6 +37,10 @@ namespace MyGame
             }
         }
 
+        public void ResetHealth()
+        {
+            health = 100; 
+        }
 
     }
 }

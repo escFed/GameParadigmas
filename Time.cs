@@ -16,21 +16,21 @@ namespace MyGame
 
         public Time()
         {
-            initialTime = DateTime.Now; // Get the initial time
-            timeLastFrame = 0f; // Initialize the last frame time
+            initialTime = DateTime.Now; 
+            timeLastFrame = 0f;
         }
 
         static public void Initialize()
         {
-            initialTime = DateTime.Now; // Get the initial time
-            timeLastFrame = 0f; // Initialize the last frame time
+            initialTime = DateTime.Now;
+            timeLastFrame = 0f;
         }
 
         public static void Update()
         {
-            float currentTime = (float)(DateTime.Now - initialTime).TotalSeconds; // Get the current time in seconds
-            deltaTime = currentTime - timeLastFrame; // Calculate the delta time
-            Time.timeLastFrame = currentTime; // Update the last frame time
+            float currentTime = (float)(DateTime.Now - initialTime).TotalSeconds;
+            deltaTime = currentTime - timeLastFrame;
+            Time.timeLastFrame = currentTime;
         }
     }
 }
